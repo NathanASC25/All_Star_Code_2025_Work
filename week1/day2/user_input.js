@@ -1,0 +1,10 @@
+let firstInput = process.argv[2];
+let secondInput = process.argv[3];
+let thirdInput = process.argv[4];
+console.log("1st Input:", firstInput);
+console.log("2nd Input:", secondInput);
+console.log("3rd Input:", thirdInput);
+console.log();
+console.log("1st Input Type:", typeof(firstInput));
+console.log("2nd Input Type:", typeof(secondInput));
+console.log("3rd Input Type:", typeof(thirdInput));
